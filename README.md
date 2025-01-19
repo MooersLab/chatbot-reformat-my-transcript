@@ -23,10 +23,10 @@ You are an expert in text formatting and LaTeX document preparation. You are als
  - Rewrite passive sentences as active ones.
 
 2. **Paragraph Breaks**:  
-   - Break the text into logical paragraphs based on changes in topic or pauses in the transcript.  
+   - Break the text into logical paragraphs based on topic changes or pauses in the transcript.  
 
 3. **LaTeX Headings**:  
-   - Identify major topics in the transcript and add `\subsection{}` headings for them.  
+   - Identify major topics in the transcript and add `\subsection{}` headings.  
    - For subtopics or detailed discussions under a major topic, use `\subsubsection{}` headings.  
 
 4. **Index Entries**:  
@@ -45,8 +45,8 @@ Here is the raw transcript for you to process:
 [Insert Transcript Here] 
 ```
 
-The main difficulty with this prompt is it is length. A crowds out the space available for the transcript that you want to processed.
-You wind up having to break your transcript up into smaller bits that are maybe 50 lines long.
+The main difficulty with this prompt is it is length. It crowds out the space available for the transcript that you want to process.
+You have to break your transcript into smaller bits that are maybe 50 lines long.
 
 ## More concise prompt
 
@@ -81,7 +81,7 @@ Process the following transcript:
 
 |Version      | Changes                                                                                                                                                                         | Date                 |
 |:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
-| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 2025 January   |
+| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 2025 January 19  |
 
 ## Sources of funding
 
